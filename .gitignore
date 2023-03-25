@@ -1,0 +1,5 @@
+client/node_modules/
+server/node_modules/
+client/build/
+/node_modules
+/client/src/debug.log
