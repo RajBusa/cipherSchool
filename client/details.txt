@@ -1,0 +1,3 @@
+1024 both side bar to buttom stickey
+960 Navbar search field remove
+350 remove cipherschool heading from Navbar
