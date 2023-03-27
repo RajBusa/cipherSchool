@@ -1,0 +1,9 @@
+.userProfile {
+  background-image: url('../img/ProfileCover.png');
+  z-index: 5;
+}
+
+.placeholder-secondary::placeholder {
+  color: gray;
+  opacity: 1;
+}

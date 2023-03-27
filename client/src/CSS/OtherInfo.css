@@ -1,0 +1,32 @@
+.btn-primary {
+  font-size: 13px;
+  background-color: #f3912e;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #f3912e;
+}
+.btn-primary:active {
+  background-color: #f3912e !important;
+}
+
+.bg-gray {
+  background-color: #262c36;
+}
+.bedge {
+  /* align-items: center; */
+  background-color: rgba(243, 145, 46, 0.1);
+  border-radius: 6px;
+  color: #f3912e;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* line-height: 1.5; */
+  padding: 6px 15px;
+  font-size: smaller;
+  margin-right: 10px;
+}
+
+.placeholder-secondary::placeholder {
+  color: gray;
+  opacity: 1;
+}

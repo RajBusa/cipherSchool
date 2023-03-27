@@ -9,7 +9,7 @@ const Navbar = () => {
         data-bs-theme="dark"
       >
         <div class="d-flex justify-content-between w-100">
-            <a class="navbar-brand">Navbar</a>
+          <a class="navbar-brand">Navbar</a>
           <div className="d-flex">
             <form class="d-flex mx-2" role="search">
               <div class="input-group">
@@ -36,7 +36,7 @@ const Navbar = () => {
                 <input
                   type="text"
                   placeholder="Write your message"
-                  className="form-control border-0 placeholder-secondary shadow-none"
+                  className="form-control border-0 shadow-none"
                   style={{ 'background-color': '#15181e' }}
                 />
                 <span
@@ -125,7 +125,14 @@ const Navbar = () => {
                 0<span class="visually-hidden">unread messages</span>
               </span>
             </button>
-            <button type="button" class="btn border-0 mx-2" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+            <button
+              type="button"
+              class="btn border-0 mx-2"
+              data-bs-container="body"
+              data-bs-toggle="popover"
+              data-bs-placement="bottom"
+              data-bs-content="Bottom popover"
+            >
               <img
                 src="https://www.cipherschools.com/static/media/WatchPoints.1caa87d88b88c0d4b4ee24fdd5b1db3f.svg"
                 class="rounded-circle"
