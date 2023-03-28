@@ -186,7 +186,7 @@ const OtherInfo = () => {
             </div>
           </div>
         </div>
-        <hr className="" />
+        <hr />
         <div className="PROFESSIONAL INFORMATION">
           <div className="d-flex justify-content-between align-items-center pt-4 pb-3">
             <div className="fw-semibold">PROFESSIONAL INFORMATION</div>
@@ -396,15 +396,98 @@ const OtherInfo = () => {
           >
             <div class="modal-body">
               <div className="row">
-                <div className="col-6">
+                <div className="col-6 mb-3">
                   <input
                     type="checkbox"
                     class="btn-check"
-                    id="btn-check"
+                    id="appDevelopment"
                     autocomplete="off"
                   />
-                  <label class="btn btn-primary" for="btn-check">
-                    Single toggle
+                  <label class="btn btn-primary w-100 p-2" for="appDevelopment">
+                    App Development
+                  </label>
+                </div>
+                <div className="col-6 mb-3">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="webDevelopment"
+                    autocomplete="off"
+                  />
+                  <label class="btn btn-primary w-100 p-2" for="webDevelopment">
+                    Web Development
+                  </label>
+                </div>
+                <div className="col-6 mb-3">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="gameDevelopment"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-primary w-100 p-2"
+                    for="gameDevelopment"
+                  >
+                    Game Development
+                  </label>
+                </div>
+                <div className="col-6 mb-3">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="dataStructure"
+                    autocomplete="off"
+                  />
+                  <label class="btn btn-primary w-100 p-2" for="dataStructure">
+                    Data Structures
+                  </label>
+                </div>
+                <div className="col-6 mb-3">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="programming"
+                    autocomplete="off"
+                  />
+                  <label class="btn btn-primary w-100 p-2" for="programming">
+                    Programming
+                  </label>
+                </div>
+                <div className="col-6 mb-3">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="machineLearning"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-primary w-100 p-2"
+                    for="machineLearning"
+                  >
+                    Machine Learning
+                  </label>
+                </div>
+                <div className="col-6 mb-3">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="dataScience"
+                    autocomplete="off"
+                  />
+                  <label class="btn btn-primary w-100 p-2" for="dataScience">
+                    Data Science
+                  </label>
+                </div>
+                <div className="col-6 mb-3">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="others"
+                    autocomplete="off"
+                  />
+                  <label class="btn btn-primary w-100 p-2" for="others">
+                    Others
                   </label>
                 </div>
               </div>

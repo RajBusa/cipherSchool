@@ -4,10 +4,7 @@ import './CSS/UserProfile.css'
 const UserProfile = () => {
     return (
         <>
-            <div
-                className="w-100 d-flex justify-content-between align-items-center px-5 pt-2 pb-3"
-                style={{ 'background-image': "url('../img/ProfileCover.png')" }}
-            >
+            <div className="w-100 d-flex justify-content-between align-items-center px-5 pt-2 pb-3 userProfile" >
                 <div className="d-flex align-items-center">
                     <div className="profilePhoto pe-3">
                         <button

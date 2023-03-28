@@ -1,6 +1,11 @@
 .userProfile {
-  background-image: url('../img/ProfileCover.png');
-  z-index: 5;
+  background-image: url('https://www.cipherschools.com/static/media/ProfileCover.e525f2d51356332792cb.png');
+  background-color: #202b47;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .placeholder-secondary::placeholder {
