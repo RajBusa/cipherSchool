@@ -1,6 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { useDispatch } from "react-redux";
+// import { loginFailure, loginStart, loginSuccess } from "../redux/userSlice";
+import { useNavigate } from "react-router-dom";
+// import axios from "axios";
 
-const Navbar = (props) => {
+const Navbar = () => {
+  // const [name, setName] = useState("");
+  // const [password, setPassword] = useState("");
+  // const dispatch = useDispatch();
+  // const navigate = useNavigate();
+
+  // const handleLogin = async (e) => {
+  //   e.preventDefault();
+  //   dispatch(loginStart());
+  //   try {
+  //     const res = await axios.post("/auth/signin", { name, password });
+  //     dispatch(loginSuccess(res.data));
+  //     navigate("/")
+  //   } catch (err) {
+  //     dispatch(loginFailure());
+  //   }
+  // };
   return (
     <>
       <div>
@@ -198,7 +218,7 @@ const Navbar = (props) => {
           </div>
         </div>
       </div>
-
+      {/* Modal SignIn */}
       <div className='modal-dialog modal-dialog-centered'>
         <div class="modal fade" id="signin" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <div class="modal-dialog">
@@ -224,9 +244,9 @@ const Navbar = (props) => {
                 />
               </div>
               <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">SignUp</button>
-                </div>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">SignIn</button>
+              </div>
             </div>
           </div>
         </div>

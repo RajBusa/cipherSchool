@@ -4,12 +4,12 @@ import Home from './Home'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 function App() {
   return (
-    <Router >    
+    <Router >
       <Navbar />
-        <Routes >
-          <Route path="/" element={<Home />} />
-          <Route path="/profile" element={<Profile />} />
-        </Routes>
+      <Routes >
+        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/" element={<Profile />} />
+      </Routes>
     </Router>
   )
 }
